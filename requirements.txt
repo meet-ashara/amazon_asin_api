@@ -1,4 +1,5 @@
 fastapi
 uvicorn
-curl_cffi
+jinja2
 lxml
+curl-cffi
