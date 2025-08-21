@@ -3,3 +3,4 @@ uvicorn
 jinja2
 lxml
 curl-cffi
+pydantic
