@@ -10,6 +10,8 @@
 
 ---
 
+Here is the link to test the api > https://amazon-asin-api.onrender.com/
+
 ## 📖 Project Overview
 The **Amazon ASIN Scraper API** is a lightweight and modern **FastAPI** project that extracts product details from Amazon using ASIN codes.  
 It provides both:
@@ -98,5 +100,6 @@ You are free to use, modify, and distribute this project.
 
 Contributions are welcome!
 If you like this project, give it a ⭐ on GitHub to support it 🙌
+
 
 
