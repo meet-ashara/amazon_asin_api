@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amazon ASIN Scraper | Meet Ashara</title>
-  <meta name="description" content="Extract Amazon product data instantly using ASIN - prices, reviews, images, availability, and more with our scraping API." />
+  <title>Amazon Product URL Scraper | Meet Ashara</title>
+  <meta name="description" content="Extract Amazon product data instantly using Product URL - prices, reviews, images, availability, and more with our scraping API." />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,7 +79,7 @@
     <div class="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <div class="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center text-white font-bold">A</div>
-        <span class="font-extrabold tracking-tight text-lg">Amazon ASIN Scraper</span>
+        <span class="font-extrabold tracking-tight text-lg">Amazon Product URL Scraper</span>
       </div>
       <div class="flex items-center gap-4">
         <a href="/docs" target="_blank" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 shadow-soft text-sm">API Docs</a>
@@ -102,9 +102,9 @@
       <!-- Hero -->
       <div class="text-center mb-12 animate-fadeInUp">
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-          <span class="bg-gradient-to-r from-indigo-700 to-indigo-500 bg-clip-text text-transparent">Amazon ASIN Scraper</span>
+          <span class="bg-gradient-to-r from-indigo-700 to-indigo-500 bg-clip-text text-transparent">Amazon Product URL Scraper</span>
         </h1>
-        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Get detailed product insights from Amazon using just the ASIN — prices, reviews, ratings, discounts, and more.</p>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Get detailed product insights from Amazon using just the Product URL — prices, reviews, ratings, discounts, and more.</p>
       </div>
 
       <!-- Search Form -->
@@ -112,11 +112,11 @@
         <form action="/scrape-ui" method="post" class="bg-white dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-white/10 p-6 shadow-soft">
           <div class="flex flex-col sm:flex-row gap-4">
             <div class="flex-1">
-              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">ASIN</label>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Product URL</label>
               <input 
                 type="text" 
                 name="asin" 
-                placeholder="Enter Amazon ASIN (e.g. B09XYZ123)"
+                placeholder="Enter Amazon Product URL (e.g. https://www.amazon.in/Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D842QBMB/?_encoding=UTF8&ref_=pd_hp_d_btf_ls_gwc_pc_en4_)"
                 value="{{ asin or '' }}"
                 class="w-full px-4 py-3 border border-gray-300 dark:border-white/10 rounded-xl bg-white dark:bg-white/5 text-gray-900 dark:text-gray-100 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
                 required
@@ -230,3 +230,4 @@
 
 </body>
 </html>
+
