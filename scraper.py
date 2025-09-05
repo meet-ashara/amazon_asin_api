@@ -150,7 +150,3 @@ def parse_amazon_page(asin: str) -> dict:
 
     except Exception as e:
         return {"error": str(e), "product_name": "N/A", "product_url": url}
-
-
-
-
