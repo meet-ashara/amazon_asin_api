@@ -58,7 +58,7 @@ def safe_extract(tree, xpaths, multiple=False, join=False):
 
 
 def parse_amazon_page(asin: str) -> dict:
-    url = f""
+    url = f"https://www.amazon.in/dp/{asin}?th=1&psc=1"
     response = requests.get(url, impersonate="chrome110",headers=header)
 
     if response.status_code != 200:
@@ -150,4 +150,5 @@ def parse_amazon_page(asin: str) -> dict:
 
     except Exception as e:
         return {"error": str(e), "product_name": "N/A", "product_url": url}
+
 
